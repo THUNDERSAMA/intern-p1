@@ -24,3 +24,6 @@ Route::get('/profile', function () {
     return view('pages/user_profile');
 });
 Route::get('/signin', 'App\Http\Controllers\Homecontroller@create');
+Route::get('/signup',function () {
+    return view('pages/signup');
+});

@@ -10,62 +10,81 @@
         
             <ul class="nav">
              
-              {{-- <li class="scroll-to-section"><a href="#">Join now</a></li>  --}}
+             
                <li class="nav-item ">
         
       </li>
             
               <li class="scroll-to-section dropdown">
-        <a class="nav-link dropdown-toggle" href="#" style="color:black;" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-         Location
+        <a class="nav-link dropdown-toggle" href="#" style="color:black;font-weight: bold;" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Jobs
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-    <a class="dropdown-item" href="#">Andhra Pradesh</a>
-    <a class="dropdown-item" href="#">Arunachal Pradesh</a>
-    <a class="dropdown-item" href="#">Assam</a>
-    <a class="dropdown-item" href="#">Bihar</a>
-    <a class="dropdown-item" href="#">Chandigarh</a>
-    <a class="dropdown-item" href="#">Chhattisgarh</a>
-   <a class="dropdown-item" href="#">Delhi</a>
-    <a class="dropdown-item" href="#">Goa</a>
-    <a class="dropdown-item" href="#">Gujarat</a>
-    <a class="dropdown-item" href="#">Haryana</a>
-    <a class="dropdown-item" href="#">Himachal Pradesh</a>
-    <a class="dropdown-item" href="#">Jammu and Kashmir</a>
-    <a class="dropdown-item" href="#">Jharkhand</a>
-    <a class="dropdown-item" href="#">Karnataka</a>
-    <a class="dropdown-item" href="#">Kerala</a>
-    <a class="dropdown-item" href="#">Madhya Pradesh</a>
-    <a class="dropdown-item" href="#">Maharashtra</a>
-    <a class="dropdown-item" href="#">Odisha</a>
-    <a class="dropdown-item" href="#">Puducherry</a>
-    <a class="dropdown-item" href="#">Punjab</a>
-    <a class="dropdown-item" href="#">Rajasthan</a>
-    <a class="dropdown-item" href="#">Sikkim</a>
-    <a class="dropdown-item" href="#">Tamil Nadu</a>
-    <a class="dropdown-item" href="#">Telangana</a>
-    <a class="dropdown-item" href="#">Uttar Pradesh</a>
-    <a class="dropdown-item" href="#">Uttarakhand</a>
-    <a class="dropdown-item" href="#">West Bengal</a>
+    <a class="dropdown-item" href="#">Find jobs</a>
+     <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Post a job</a>
+     <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Resumes</a>
+     <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Promote Yourself</a>
+     <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Connect with</a>
+     <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Candidates</a>
+
           
         </div>
       </li> 
+            <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" style="color:black;font-weight: bold;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+        Freelancing
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#" style="color:black;">Find work</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#" style="color:black;">Post work</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#" style="color:black;">Connect Freelancer</a>
+                <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#" style="color:black;">Promote Yourself</a>
+        </div>
+      </li>
                <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" style="color:black;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-         Browse
+        <a class="nav-link dropdown-toggle" style="color:black;font-weight: bold;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Tution
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#" style="color:black;">Browse Tutors</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#" style="color:black;">Browse Institutes</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#" style="color:black;">Browse Classes</a>
+         <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#" style="color:black;">Post Tutor Request</a>
+     <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#" style="color:black;">Connect Tutor</a>
+                <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" style="color:black;">Promote Yourself</a>
+                  <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#" style="color:black;">Study Material</a>
         </div>
       </li>
       
-                 <li class="scroll-to-section"><div class="main-red-button-hover"><a href="#contact">Request a Tutor</a></div></li>
-                <li class="scroll-to-section"><div class="main-red-button-hover"><a href="{{ url('signin') }}">Sign in</a></div></li>
-                <li class="scroll-to-section"><div class="main-red-button-hover"><a href="#contact">Sign up</a></div></li>
+                  <li class="scroll-to-section"><a href="#" style="color:black;font-weight: bold;">Blog</a></li> 
+                   <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" style="color:black;font-weight: bold;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Contact
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#" style="color:black;">Contact us</a>
+         <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#" style="color:black;">About us</a>
+     <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#" style="color:black;">Chat with us</a>
+                <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" style="color:black;">Carrers</a>
+        
+              
+        </div>
+      </li>
+                <li class="scroll-to-section"><div class="main-red-button-hover"><a href="{{ url('signin') }}" style="color:black;font-weight: bold;">Sign in</a></div></li>
+                <li class="scroll-to-section"><div class="main-red-button-hover"><a href="{{ url('signup') }}" style="color:black;font-weight: bold;">Sign up</a></div></li>
         <li class="nav-item ">
         
       </li>

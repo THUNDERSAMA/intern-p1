@@ -36,8 +36,13 @@
     max-height: 280px;
     overflow-y: auto;
    color:black;
+   text-align: center;
+   border-radius:10px;
 }
-
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    
+    border-radius: 20px;
+}
 </style>
 
   </head>
