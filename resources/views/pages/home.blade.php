@@ -1,6 +1,14 @@
 @extends ('layouts.app')
 @section('content')
-
+<nav class="social-nav">
+      <ul>
+        <li class="snav"><a href="#"><i class="bi bi-facebook"></i></a></li>
+        <li class="snav"><a href="#"><i class="bi bi-twitter"></i></a></li>
+        <li class="snav"><a href="#"><i class="bi bi-instagram"></i></a></li>
+        <li class="snav"><a href="#"><i class="bi bi-linkedin"></i></a></li>
+        
+      </ul>
+    </nav>
 <div class="main-banner" id="top" data-aos="fade-down-right" data-aos-delay="50"
     data-aos-duration="1000">
     <div class="container">

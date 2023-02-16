@@ -57,6 +57,7 @@
       </div>
     </div>
   </footer>
+
         <!-- </footer>data-aos="fade-right" data-aos-delay="50" -->
 		
  

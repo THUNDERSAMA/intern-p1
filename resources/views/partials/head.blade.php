@@ -43,6 +43,73 @@
     
     border-radius: 20px;
 }
+.social-nav{
+
+  position:float;
+  width: 60px;
+  margin-top: 150px;
+  transition: all 0.3s linear;
+ box-shadow: -12px -20px 8px 0px rgb(132 132 132 / 40%);
+}
+
+.social-nav {
+    margin-top: 231;
+    margin-bottom: 0rem;
+ float:right;
+}
+.social-nav .snav{
+  height: 45px;
+  position:relative;
+      list-style: none !important
+}
+.social-nav .snav a{
+  color: #fff !important;
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 45px;
+  padding-left:25%;
+  border-bottom: 1px solid rgba(0,0,0,.4);
+  transition: all .3s linear;
+  text-decoration: none !important;
+}
+.social-nav .snav:nth-child(1) a{
+  background: #4267B2;
+}
+.social-nav .snav:nth-child(2) a{
+  background: #1DA1F2;
+}
+.social-nav .snav:nth-child(3) a{
+  background: #E1306C;
+}
+.social-nav .snav:nth-child(4) a{
+  background: #2867B2;
+}
+
+.social-nav .snav a i{
+      position: absolute;
+    top: 14px;
+    left: 24px;
+    font-size: 15px;
+}
+ul .snav a span{
+  display: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+a:hover {
+  z-index:1;
+  width: 200px;
+  border-bottom: 1px so.snavd rgba(0,0,0,.5);
+  box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
+}
+ul .snav:hover a span{
+  padding-left: 30%;
+  display: block;
+  font-size: 15px;
+}
+
 </style>
 
   </head>
