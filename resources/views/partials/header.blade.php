@@ -16,7 +16,7 @@
         
       </li>
             
-              <li class="scroll-to-section dropdown">
+              <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" style="color:black;font-weight: bold;" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
          Jobs
         </a>

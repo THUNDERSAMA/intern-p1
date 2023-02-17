@@ -20,12 +20,12 @@
               <div class="owl-carousel owl-banner">
                 <div class="item header-text">
                   {{-- <h6>Tag line</h6> --}}
-                  <h2 style="color: white; font-weight:bold;">PIONEER 
+                  <h2 style="color: white; font-weight:bolder;">PIONEER 
 {{-- <span>...</span>..... --}}
 </h2>
-                  <p ><h3 style="color: white;"><em style="font-weight: bold;
+                  <p ><h3 style="color: white;"><em style="font-weight:bolder;
     font-family: monospace;">Register for</em></h3>
-    <h4 style="font-family: cursive;line-height: 1.5;color: white; font-weight:bold;">
+    <h4 style="font-family: cursive;line-height: 1.5;color: white; font-weight:bolder;">
 HR Services & Placements,
 Freelancing work,<br>
 Tuitions-Online/offline Batches,<br>

@@ -189,9 +189,9 @@ body {
 
 .main-blue-button-hover a {
   display: inline-block;
-  background-color: #03a4ed;
+  background-color: #ffc107;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: bold;
   color: #fff;
   text-transform: capitalize;
   padding: 12px 25px;
@@ -201,7 +201,8 @@ body {
 }
 
 .main-blue-button-hover a:hover {
-  background-color: #3177de;
+  background-color: #288d00;
+  color: #fff;
 }
 
 .main-red-button a {
@@ -385,7 +386,7 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #0a1fe0!important;
+  color: #000002!important;
 }
 
 .background-header .main-nav .nav li:hover a,
@@ -1898,7 +1899,7 @@ responsive
     margin-right: 0px;
   }
   .main-banner  {
-    padding-bottom: 0px;
+    padding-bottom: 45px;
   }
   .about-us .section-heading h2 {
     margin-right: 0px;
