@@ -20,10 +20,10 @@
               <div class="owl-carousel owl-banner">
                 <div class="item header-text">
                   {{-- <h6>Tag line</h6> --}}
-                  <h2 style="color: white; font-weight:bolder;">PIONEER 
+                  <h2 class="title-ban"style="color: white; font-weight:bolder;">PIONEER 
 {{-- <span>...</span>..... --}}
 </h2>
-                  <p ><h3 style="color: white;"><em style="font-weight:bolder;
+                  <p ><h3 ><em style="font-weight:bolder;
     font-family: monospace;">Register for</em></h3>
     <h4 style="font-family: cursive;line-height: 1.5;color: white; font-weight:bolder;">
 HR Services & Placements,
@@ -70,22 +70,22 @@ WILL BE BACK LIVE FROM 1 MARCH 2023<b> </span><span>	&#128197;</span></h3></p>
             <div class="item" data-aos="fade-right" data-aos-delay="50" data-aos-duration="800"
     >
               <h4>For freelancers</h4>
-              <div class="icon"><img src="images/freelancer.png" alt=""></div>
+              <div class="icon"><img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/freelancer.png" alt=""></div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div class="item" data-aos="fade-left" data-aos-delay="50" data-aos-duration="800" >
               <h4>Teachers</h4>
-              <div class="icon"><img src="images/teacher.png" alt=""></div>
+              <div class="icon"><img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/teacher.png" alt=""></div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div class="item"  data-aos="fade-right" data-aos-delay="50" data-aos-duration="800">
               <h4>Search jobs</h4>
-              <div class="icon"><img src="images/job.png" alt=""></div>
+              <div class="icon"><img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/job.png" alt=""></div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div class="item"  data-aos="fade-left" data-aos-delay="50" data-aos-duration="800">
               <h4>Students</h4>
-              <div class="icon"><img src="images/students.png" alt=""></div>
+              <div class="icon"><img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/students.png" alt=""></div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             
@@ -113,7 +113,7 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
                 <div class="fact-item">
                   <div class="count-area-content">
                     <div class="icon">
-                      <img src="images/students.png" alt="">
+                      <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/students.png" alt="">
                     </div>
                     <div class="count-digit" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">320</div>
                     <div class="count-title">Students</div>
@@ -125,7 +125,7 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
                 <div class="fact-item">
                   <div class="count-area-content">
                     <div class="icon">
-                      <img src="images/freelancer.png" alt="">
+                      <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/freelancer.png" alt="">
                     </div>
                     <div class="count-digit" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">640</div>
                     <div class="count-title">Freelancers</div>
@@ -137,7 +137,7 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
                 <div class="fact-item">
                   <div class="count-area-content">
                     <div class="icon">
-                      <img src="images/teacher.png" alt="">
+                      <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/teacher.png" alt="">
                     </div>
                     <div class="count-digit" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">120</div>
                     <div class="count-title">Teachers</div>

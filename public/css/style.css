@@ -875,10 +875,17 @@ Banner Style
 }
 
 .main-banner .item h2 {
-  font-size: 50px;
+  font-size: 85px;
   font-weight: 700;
   color: #2a2a2a;
   line-height: 72px;
+}
+.main-banner .item h4 {
+  font-size: 23px;
+}
+.main-banner .item h3 {
+  font-size: 37px;
+  color: #ffc107;
 }
 
 .main-banner .item h2 em {
@@ -1892,6 +1899,12 @@ responsive
 }
 
 @media (max-width: 992px) {
+  .main-banner .item h2 {
+    font-size: 50px;
+  }
+  .main-banner .item h4 {
+    font-size: 18px;
+  }
   .main-banner::before {
     display: none;
   }

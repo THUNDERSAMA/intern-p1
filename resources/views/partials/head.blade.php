@@ -15,14 +15,14 @@
     <title>Onix Digital Marketing HTML5 Template</title>
 
     
-    <link href="{{asset('css/bootstrap.min.css'); }}" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/css/bootstrap.min.css" rel="stylesheet">
 
 
     <!--  CSS Files -->
-    <link rel="stylesheet" href="{{ URL::asset('css/fontawesome.css'); }}">
-    <link rel="stylesheet" href="{{ URL::asset('css/style.css'); }}">
-    <link rel="stylesheet" href="{{ URL::asset('css/animated.css'); }}">
-    <link rel="stylesheet" href="{{ URL::asset('css/owl.css'); }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/css/fontawesome.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/css/animated.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/css/owl.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -108,6 +108,9 @@ ul .snav:hover a span{
   padding-left: 30%;
   display: block;
   font-size: 15px;
+}
+.title-ban{
+font-size: 85px;
 }
 
 </style>
