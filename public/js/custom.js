@@ -18,25 +18,12 @@
 
 	$('.owl-banner').owlCarousel({
 		items:1,
-		loop:true,
-		dots: true,
+		loop:false,
+		dots: false,
 		nav: false,
-		autoplay: true,
+		autoplay: false,
 		margin:0,
-		  responsive:{
-			  0:{
-				  items:1
-			  },
-			  600:{
-				  items:1
-			  },
-			  1000:{
-				  items:1
-			  },
-			  1600:{
-				  items:1
-			  }
-		  }
+		  
 	})
 
     $('.owl-services').owlCarousel({

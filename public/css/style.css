@@ -280,9 +280,9 @@ header
 }
 
 .header-area {
-  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%); backdrop-filter: blur(5px); 
-    box-shadow: 0px 35px 68px 0px rgb(99 104 222), inset 0px -8px 16px 0px rgb(249 249 249 / 0%), inset 0px 11px 28px 0px rgb(255 225 225 / 0%); 
-    backdrop-filter: blur(21px); 
+  background: linear-gradient(90deg, #f0f5f0 0%, #f8f9fa 100%);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 35px 68px 0px #d3ffd4, inset 0px -8px 16px 0px rgb(249 249 249 / 0%), inset 0px 11px 28px 0px rgb(255 225 225 / 0%); 
      border-radius: 8px;
   position: absolute;
   top: 0px;
@@ -338,7 +338,7 @@ header
 
 .header-area .main-nav .nav li {
   padding-left: 20px;
-  padding-right: 20px;
+  /* padding-right: 20px; */
 }
 
 .header-area .main-nav .nav li:last-child {
@@ -632,9 +632,10 @@ header
     width: 100%;
   }
   .header-area {
-    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%); backdrop-filter: blur(5px); 
-    box-shadow: 0px 35px 68px 0px rgb(99 104 222), inset 0px -8px 16px 0px rgb(249 249 249 / 0%), inset 0px 11px 28px 0px rgb(255 225 225 / 0%); 
-    backdrop-filter: blur(21px); 
+    background: linear-gradient(90deg, #f0f5f0 0%, #f8f9fa 100%);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 35px 68px 0px #d3ffd4, inset 0px -8px 16px 0px rgb(249 249 249 / 0%), inset 0px 11px 28px 0px rgb(255 225 225 / 0%); 
+     
      border-radius: 8px;
     padding: 0px 15px;
     height: 100px;

@@ -1,16 +1,17 @@
 @extends ('layouts.app')
 @section('content')
-<nav class="social-nav">
+
+<div class="main-banner"  data-aos="fade-down-right" data-aos-delay="50"
+    data-aos-duration="1000" style="background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(5,89,33,1) 35%, rgba(19,153,63,1) 96%);">
+    <nav class="social-nav">
       <ul>
-        <li class="snav"><a href="#"><i class="bi bi-facebook"></i></a></li>
-        <li class="snav"><a href="#"><i class="bi bi-twitter"></i></a></li>
-        <li class="snav"><a href="#"><i class="bi bi-instagram"></i></a></li>
-        <li class="snav"><a href="#"><i class="bi bi-linkedin"></i></a></li>
+        <li class="snav"><a href="https://www.facebook.com/profile.php?id=100013741391986&mibextid=ZbWKwL"><i class="bi bi-facebook"></i></a></li>
+        <li class="snav"><a href="https://instagram.com/pioneerldh?igshid=ZDdkNTZiNTM="><i class="bi bi-twitter"></i></a></li>
+        {{-- <li class="snav"><a href="#"><i class="bi bi-instagram"></i></a></li> --}}
+        <li class="snav"><a href="https://www.linkedin.com/in/pioneer-academy-595885264"><i class="bi bi-linkedin"></i></a></li>
         
       </ul>
     </nav>
-<div class="main-banner" id="top" data-aos="fade-down-right" data-aos-delay="50"
-    data-aos-duration="1000">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -18,13 +19,23 @@
             <div class="col-lg-6 align-self-center">
               <div class="owl-carousel owl-banner">
                 <div class="item header-text">
-                  <h6>Tag line</h6>
-                  <h2>Branding tag<span>...</span>.....</h2>
-                  <p>text sample Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
+                  {{-- <h6>Tag line</h6> --}}
+                  <h2 style="color: white; font-weight:bold;">PIONEER 
+{{-- <span>...</span>..... --}}
+</h2>
+                  <p ><h3 style="color: white;"><em style="font-weight: bold;
+    font-family: monospace;">Register for</em></h3>
+    <h4 style="font-family: cursive;line-height: 1.5;color: white; font-weight:bold;">
+HR Services & Placements,
+Freelancing work,<br>
+Tuitions-Online/offline Batches,<br>
+GATE/IES/JE/SDE,<br>UGC/IAS/PCS,<br>
+11th/12th/ IIT- JEE/NEET/CA,</h4>
+<h3 style="color: white;"><span><b>UNDER RENOVATION. 
+WILL BE BACK LIVE FROM 1 MARCH 2023<b> </span><span>	&#128197;</span></h3></p>
                   <div class="down-buttons">
                     <div class="main-blue-button-hover">
-                      <a href="#contact">Join now</a>
+                      <a href="href="{{ url('signup') }}"">Join now</a>
                     </div>
                   
                   </div>
@@ -48,7 +59,7 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
       <div class="row">
         <div class="col-lg-6 offset-lg-3">
           <div class="section-heading">
-            <h2>Get your carrer on <span>right path</span></h2>
+            <h2>Get your career on <span>right path</span></h2>
             <span>tag line...</span>
           </div>
         </div>
