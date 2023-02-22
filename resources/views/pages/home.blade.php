@@ -151,4 +151,62 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
       </div>
     </div>
   </div>
+   <div id="contact" class="contact-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7" data-aos="fade-right" data-aos-delay="50" data-aos-duration="800">
+          <div class="section-heading">
+            <h2>Feel free to <em>Contact</em> us  <span></span></h2>
+            <div id="map">
+              <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="360px" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+            </div>
+            <div class="info">
+              <span><i class="fa fa-phone"></i> <a href="#">010-020-0340<br>090-080-0760</a></span>
+              <span><i class="fa fa-envelope"></i> <a href="#">info@company.com<br>mail@company.com</a></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center" data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">
+          <form id="contact" action="" method="get">
+            <div class="row">
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="surname" name="surname" id="surname" placeholder="Surname" autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="text" name="website" id="website" placeholder="Your Website URL" required="">
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="main-button">Submit Request</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="contact-dec">
+      
+    </div>
+    <div class="contact-left-dec">
+     
+    </div>
+  </div>
+  <div class="footer-dec">
+    <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/footer-dec.png" alt="">
+  </div>
   @stop

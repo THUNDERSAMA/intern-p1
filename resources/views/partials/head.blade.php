@@ -100,7 +100,7 @@ ul .snav a span{
 }
 a:hover {
   z-index:1;
-  width: 200px;
+ 
   border-bottom: 1px so.snavd rgba(0,0,0,.5);
   box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
 }

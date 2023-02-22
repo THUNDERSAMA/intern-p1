@@ -19,7 +19,7 @@ box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -8px -8px 16px 0p
 .login-html{
 	width:100%;
 	height:100%;
-	position:absolute;
+	position:relative;
 	padding:90px 70px 50px 70px;
 
 }
@@ -150,8 +150,8 @@ box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -8px -8px 16px 0p
 }
 .fa {
          padding: 7px;
-    font-size: 30px;
-    width: 41px;
+    font-size: 17px;
+    width: 29px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -182,6 +182,16 @@ box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -8px -8px 16px 0p
 		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
 		<div class="login-form">
 			<div class="sign-in-htm">
+			<div class="group">
+					 <a class="btn btn-lg btn-google btn-block text-uppercase btn-outline" href="#"><img src="https://img.icons8.com/color/16/000000/google-logo.png" style="width:26px"> Signin Using Google</a>
+				</div>
+			<div class="group">
+					 <a class="btn btn-lg btn-google btn-block text-uppercase btn-outline" href="#"><i class="fc fa fa-twitter"> </i>&nbsp Signin Using twitter</a>
+				</div>
+			<div class="group">
+					 <a class="btn btn-lg btn-google btn-block text-uppercase btn-outline" href="#"><i class="fc fa fa-facebook"> </i>&nbsp Signin Using facebook</a>
+				</div>
+				<div class="hr"></div>
 				<div class="group">
 					<label for="user" class="label">Username</label>
 					<input id="user" type="text" class="input">
@@ -197,17 +207,33 @@ box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -8px -8px 16px 0p
 				<div class="group">
 					<input type="submit" class="button" value="Sign In">
 				</div>
-                <div>
-                <a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
-<a href="#" class="fa fa-google"></a>
-</div>
+            
 				<div class="hr"></div>
 				<div class="foot-lnk">
 					<a href="#forgot">Forgot Password?</a>
 				</div>
 			</div>
 			<div class="sign-up-htm">
+			<div class="group">
+					 <a class="btn btn-lg btn-google btn-block text-uppercase btn-outline" href="#"><img src="https://img.icons8.com/color/16/000000/google-logo.png" style="width:26px"> Signup Using Google</a>
+				</div>
+			<div class="group">
+					 <a class="btn btn-lg btn-google btn-block text-uppercase btn-outline" href="#"><i class="fc fa fa-twitter"> </i>&nbsp Signup Using twitter</a>
+				</div>
+			<div class="group">
+					 <a class="btn btn-lg btn-google btn-block text-uppercase btn-outline" href="#"><i class="fc fa fa-facebook"> </i>&nbsp Signup Using facebook</a>
+				</div>
+					<div class="hr"></div>
+					<div class="group">
+					 <label for="inputState">Select user type..</label>
+      <select id="inputState" class="form-control" >
+        <option selected>Student</option>
+		<option>Freelancer</option>
+		<option>Tutor</option>
+		<option>Job seeker</option>
+		<option>Job creator</option>
+      </select>
+					</div>
 				<div class="group">
 					<label for="user" class="label">Username</label>
 					<input id="user" type="text" class="input">
@@ -229,11 +255,7 @@ box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -8px -8px 16px 0p
 				</div>
               
 				
-				  <div>
-                <a href="#" class="fc fa fa-facebook"></a>
-<a href="#" class="fc fa fa-twitter"></a>
-<a href="#" class="fc fa fa-google"></a>
-</div>
+			
 			</div>
 		</div>
 	</div>

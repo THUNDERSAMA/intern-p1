@@ -17,7 +17,7 @@
       </li>
             
               <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" style="color:black;font-weight: bold;" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" style="font-size: 16px;color:#363637;font-weight:400;" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
          Jobs
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -37,7 +37,7 @@
         </div>
       </li> 
             <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" style="color:black;font-weight: bold;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+        <a class="nav-link dropdown-toggle" style="font-size: 16px;color:#363637;font-weight:500;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
         Freelancing
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -51,11 +51,11 @@
         </div>
       </li>
                <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" style="color:black;font-weight: bold;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" style="font-size: 16px;color:#363637;font-weight:500;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
          Tution
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#" style="color:black;">Browse Tutors</a>
+          <a class="dropdown-item" href="{{ url('tutors') }}" style="color:black;">Browse Tutors</a>
          <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#" style="color:black;">Post Tutor Request</a>
      <div class="dropdown-divider"></div>
@@ -67,13 +67,13 @@
         </div>
       </li>
       
-                  <li class="scroll-to-section"><a href="#" style="color:black;font-weight: bold;">Blog</a></li> 
+                  <li class="scroll-to-section"><a href="#" style="font-size: 16px;color#363637;font-weight:500;">Blog</a></li> 
                    <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" style="color:black;font-weight: bold;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" style="font-size: 16px;color:#363637 font-weight:500;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
          Contact
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#" style="color:black;">Contact us</a>
+          <a class="dropdown-item" href="#contact" style="color:black;">Contact us</a>
          <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#" style="color:black;">About us</a>
      <div class="dropdown-divider"></div>
@@ -84,8 +84,8 @@
               
         </div>
       </li>
-                <li class="scroll-to-section"><div class="main-red-button-hover"><a href="{{ url('signin') }}" style="color:black;font-weight: bold;">Sign in</a></div></li>
-                <li class="scroll-to-section"><div class="main-red-button-hover"><a href="{{ url('signup') }}" style="color:black;font-weight: bold;">Sign up</a></div></li>
+                <li class="scroll-to-section"><div class="main-red-button-hover"><a href="{{ url('signin') }}" style="font-size: 16px;color: #62646a;">Sign in / Sign up</a></div></li>
+               
         <li class="nav-item ">
         
       </li>
