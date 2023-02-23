@@ -87,7 +87,7 @@
   opacity:0.9;
   text-decoration:none;
 }
-    .or-seperator {
+.or-seperator {
         margin: 50px 0 15px;
         text-align: center;
         border-top: 1px solid #e0e0e0;
@@ -112,21 +112,20 @@
         <div class="form-container">
             <div class="image-holder"></div>
             <form method="post">
-                <h2 class="text-center"><strong>Log in</strong></h2>
-				 <div class="text-center social-btn">
-            <a href="#" class="btn btn-primary btn-lg btn-block"><i class="fa fa-facebook"></i> Sign in with <b>Facebook</b></a>
-            <a href="#" class="btn btn-info btn-lg btn-block"><i class="fa fa-twitter"></i> Sign in with <b>Twitter</b></a>
-			<a href="#" class="btn btn-danger btn-lg btn-block"><i class="fa fa-google"></i> Sign in with <b>Google</b></a>
+                <h2 class="text-center"><strong>Create</strong> an account.</h2>
+                	 <div class="text-center social-btn">
+            <a href="#" class="btn btn-primary btn-lg btn-block"><i class="fa fa-facebook"></i> Sign up with <b>Facebook</b></a>
+            <a href="#" class="btn btn-info btn-lg btn-block"><i class="fa fa-twitter"></i> Sign up with <b>Twitter</b></a>
+			<a href="#" class="btn btn-danger btn-lg btn-block"><i class="fa fa-google"></i> Sign up with <b>Google</b></a>
         </div>
 		<div class="or-seperator"><b>or</b></div>
                 <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
                 <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
-                
+                <div class="form-group"><input class="form-control" type="password" name="password-repeat" placeholder="Password (repeat)"></div>
                 <div class="form-group">
                     <div class="form-check"><label class="form-check-label"><input class="form-check-input" type="checkbox">I agree to the license terms.</label></div>
                 </div>
-				
-                <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Sign in</button></div><a href="signup" class="already">You already have an account? Login here.</a></form>
+                <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Sign Up</button></div><a href="#" class="already">You already have an account? Login here.</a></form>
         </div>
     </div>
 @stop

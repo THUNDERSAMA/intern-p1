@@ -28,6 +28,15 @@ Route::get('/upgrade', function () {
 });
 Route::get('/tutors', function () {
     return view('pages/browse-tutor');
+    
+});
+Route::get('/blog', function () {
+    return view('pages/blog');
+    
+});
+Route::get('/about', function () {
+    return view('pages/about');
+    
 });
 Route::get('/signin', 'App\Http\Controllers\Homecontroller@create');
 Route::get('/dashboard', 'App\Http\Controllers\Homecontroller@usertype');
