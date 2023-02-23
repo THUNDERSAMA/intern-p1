@@ -17,6 +17,9 @@ use App\Http\Controllers\Homecontroller;
 Route::get('/', function () {
     return view('pages/home');
 });
+Route::get('/home', function () {
+    return view('pages/home');
+});
 // Route::get('/dashboard', function () {
 //     return view('pages/dashboard');
 // });
@@ -36,6 +39,22 @@ Route::get('/blog', function () {
 });
 Route::get('/about', function () {
     return view('pages/about');
+    
+});
+Route::get('/career', function () {
+    return view('pages/career');
+    
+});
+Route::get('/find-job', function () {
+    return view('pages/find-job');
+    
+});
+Route::get('/find-work', function () {
+    return view('pages/find-work');
+    
+});
+Route::get('/study-material', function () {
+    return view('pages/study-material');
     
 });
 Route::get('/signin', 'App\Http\Controllers\Homecontroller@create');

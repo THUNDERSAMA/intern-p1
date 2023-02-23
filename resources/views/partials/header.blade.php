@@ -5,7 +5,7 @@
         <div class="col-12">
           <nav class="main-nav">
             
-            <a href="index.html" class="logo">
+            <a href="home" class="logo">
            <img src="https://cdn.pixabay.com/photo/2022/08/22/03/30/logo-7402627__340.png"  style="height:60px;width:44px;"/>
             </a>
         
@@ -21,7 +21,7 @@
          Jobs
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-    <a class="dropdown-item" href="#">Find jobs</a>
+    <a class="dropdown-item" href="find-job">Find jobs</a>
      <div class="dropdown-divider"></div>
     <a class="dropdown-item" href="#">Post a job</a>
      <div class="dropdown-divider"></div>
@@ -41,7 +41,7 @@
         Freelancing
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#" style="color:black;">Find work</a>
+          <a class="dropdown-item" href="find-work" style="color:black;">Find work</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#" style="color:black;">Post work</a>
           <div class="dropdown-divider"></div>
@@ -63,7 +63,7 @@
                 <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#" style="color:black;">Promote Yourself</a>
                   <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#" style="color:black;">Study Material</a>
+              <a class="dropdown-item" href="study-material" style="color:black;">Study Material</a>
         </div>
       </li>
       
@@ -77,9 +77,8 @@
          <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="about" style="color:black;">About us</a>
      <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#" style="color:black;">Chat with us</a>
-                <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#" style="color:black;">Carrers</a>
+          
+            <a class="dropdown-item" href="career" style="color:black;">Carrers</a>
         
               
         </div>
@@ -101,3 +100,41 @@
       </div>
     </div>
   </header>
+  <div id="chatbox" style="display: none;">
+  <div class="card mt-5" style="width: 300px;
+	border: none;
+	border-radius: 15px;">
+    <div class="d-flex flex-row justify-content-between p-3 adiv text-white">
+     
+      <span class="pb-3">Live chat</span>
+    <a href="javascript:popchat()" style="font-size: 28px;
+    font-weight: bold;"> <i class="bi bi-x"></i></a> 
+    </div>
+      <div class="d-flex flex-row p-3">
+        <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-7.png" style="width:30px; height:30px;">
+        <div class="chat ml-2 p-3">Hello and thankyou for visiting birdlymind. Please click the video above</div>
+      </div>
+
+      <div class="d-flex flex-row p-3">
+        <div class="bg-white mr-2 p-3"><span class="text-muted">Hello and thankyou for visiting birdlynind.</span></div>
+        <img src="https://img.icons8.com/color/48/000000/circled-user-male-skin-type-7.png" style="width:30px; height:30px;">
+      </div>
+      
+      <div class="d-flex flex-row p-3">
+        <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-7.png" style="width:30px; height:30px;">
+        <div class="myvideo ml-2"><img src="https://imgur.com/GOxU1jx.png" width="200"></div>
+      </div>
+      
+      <div class="d-flex flex-row p-3">
+        <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-7.png" style="width:30px; height:30px;">
+        <div class="chat ml-2 p-3"><span class="text-muted dot">. . .</span></div>
+      </div>
+      
+      <div class="form-group px-3">
+        <textarea class="form-control" rows="5" placeholder="Type your message"></textarea>
+      </div>
+  </div>
+  </div>
+  <a href="javascript:popchat()" class="float" >
+<i class="bi bi-chat-dots my-float"></i>
+</a>
