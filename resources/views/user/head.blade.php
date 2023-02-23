@@ -7,7 +7,7 @@
     <title>User panel</title>
     
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ URL::asset('adminlte/assets/images/favicon.png'); }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/adminlte/assets/images/favicon.png">
     <!-- Custom CSS -->
-    <link href="{{ URL::asset('adminlte/dist/css/style.min.css'); }}" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/adminlte/dist/css/style.min.css" rel="stylesheet">
     
