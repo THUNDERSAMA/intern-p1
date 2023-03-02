@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -70,12 +70,13 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font: 400 16px/24px Macan,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font: 400 16px/24px !important;
   font-weight: 400;
   background-color: #fff;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'League Spartan', sans-serif !important;
 }
 
 a {
@@ -114,12 +115,12 @@ body {
 }
 
 ::selection {
-  background: #03a4ed;
+  background: #198754;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #03a4ed;
+  background: #198754;
   color: #fff;
 }
 
@@ -157,11 +158,11 @@ body {
 
 .section-heading h2 em {
   font-style: normal;
-  color: #03a4ed;
+  color: #198754
 }
 
 .section-heading h2 span {
-  color: #3177de;
+  color: #198754;
   font-weight: 700;
   opacity: 1;
   text-transform: capitalize;
@@ -171,13 +172,13 @@ body {
   font-size: 30px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #3177de;
+  color: #198754;
   opacity: 0.15;
 }
 
 .main-blue-button a {
   display: inline-block;
-  background-color: #03a4ed;
+  background-color: #198754;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -244,7 +245,7 @@ body {
   background-color: #fff;
   font-size: 15px;
   font-weight: 400;
-  color: #3177de;
+  color: #198754;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
@@ -361,7 +362,7 @@ header
 
 .header-area .main-nav .nav li:last-child .main-red-button-hover a:hover,
 .background-header .main-nav .nav li:last-child .main-red-button-hover a:hover {
-  background-color: #03a4ed !important;
+  background-color: #198754 !important;
 }
 
 .header-area .main-nav .nav li a {
@@ -805,7 +806,7 @@ preloader
     height: 16px;
     top: 12px;
     left: 15px;
-    background: #3177de;
+    background: #198754;
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -828,7 +829,7 @@ preloader
     width: 16px;
     height: 16px;
     margin-left: 16px;
-    background: #3177de;
+    background: #198754;
     border-radius: 50%;
 }
 
@@ -853,7 +854,7 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/banner-right.png);
+  background-image: url(https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/banner-right-image.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -870,7 +871,7 @@ Banner Style
 .main-banner .item h6 {
   text-transform: uppercase;
   font-size: 18px;
-  color: #3177de;
+  color: #198754;
   margin-bottom: 15px;
 }
 
@@ -889,12 +890,12 @@ Banner Style
 }
 
 .main-banner .item h2 em {
-  color: #03a4ed;
+  color: #198754;
   font-style: normal;
 }
 
 .main-banner .item h2 span {
-  color: #3177de;
+  color: #198754;
 }
 
 .main-banner .item p {
@@ -920,7 +921,7 @@ Banner Style
 }
 
 .main-banner .item .down-buttons .call-button a {
-  color: #3177de;
+  color: #198754;
   font-size: 15px;
   font-weight: 500;
   margin-left: 30px;
@@ -1031,7 +1032,7 @@ Services Style
 .our-services .owl-dots .owl-dot {
   width: 6px;
   height: 6px;
-  background-color: #3177de;
+  background-color: #198754;
   border-radius: 50%;
   opacity: 0.3;
   margin: 0px 5px;
@@ -1085,7 +1086,7 @@ About
 
 .about-us .fact-item .count-title {
   font-size: 15px;
-  color: #3177de;
+  color: #198754;
 }
 
 .about-us .fact-item p {
@@ -1208,7 +1209,7 @@ Portfolio
 .owl-portfolio .owl-nav .owl-prev span:after {
   width: 46px;
   height: 46px;
-  background-color: #3177de;
+  background-color: #198754;
   display: inline-block;
   text-align: center;
   line-height: 46px;
@@ -1232,7 +1233,7 @@ Portfolio
 .owl-portfolio .owl-nav .owl-next span:after {
   width: 46px;
   height: 46px;
-  background-color: #3177de;
+  background-color: #198754;
   display: inline-block;
   text-align: center;
   line-height: 46px;
@@ -1252,7 +1253,7 @@ Portfolio
 .owl-portfolio .owl-dots .owl-dot {
   width: 6px;
   height: 6px;
-  background-color: #3177de;
+  background-color: #198754;
   border-radius: 50%;
   opacity: 0.3;
   margin: 0px 5px;
@@ -1326,7 +1327,7 @@ Pricing
 }
 
 .pricing-tables .item em {
-  color: #3177de;
+  color: #198754;
   font-size: 15px;
   display: block;
   margin-top: 25px;
@@ -1336,7 +1337,7 @@ Pricing
 
 .pricing-tables .item span {
   font-size: 44px;
-  color: #3177de;
+  color: #198754;
   font-weight: 700;
   display: block;
   margin-top: -5px;
@@ -1440,7 +1441,7 @@ Subscribe
 
 .subscribe .inner-content form button {
   display: inline-block;
-  background-color: #03a4ed;
+  background-color: #198754;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -1456,7 +1457,7 @@ Subscribe
 }
 
 .subscribe .inner-content form button:hover {
-  background-color: #3177de;
+  background-color: #198754;
 }
 
 
@@ -1566,7 +1567,7 @@ Video
 
 .our-videos .nacc .thumb .overlay-effect {
   background: rgb(255,104,95);
-  background: linear-gradient(105deg, rgba(255,104,95,1) 0%, rgba(255,144,104,1) 100%);
+  background: linear-gradient(105deg, #198754 0%, rgb(122 175 38) 100%);
   display: inline-block;
   position: absolute;
   left: 0;
@@ -1596,7 +1597,7 @@ Video
 
 .our-videos .menu .thumb .inner-content {
   background: rgb(255,104,95);
-  background: linear-gradient(105deg, rgba(255,104,95,1) 0%, rgba(255,144,104,1) 100%);
+  background: linear-gradient(105deg, #198754 0%, rgb(122 175 38) 100%);
   border-top-left-radius: 23px;
   border-bottom-right-radius: 23px;
   position: absolute;
@@ -1685,7 +1686,7 @@ contact
   text-align: center;
   line-height: 46px;
   background: rgb(255,104,95);
-  background: linear-gradient(105deg, rgba(255,104,95,1) 0%, rgba(255,144,104,1) 100%);
+  background: linear-gradient(105deg, #198754 0%, rgb(122 175 38) 100%);
   border-radius: 50%;
   color: #fff;
   font-size: 22px;
@@ -1737,7 +1738,7 @@ form#contact input::placeholder {
 
 form#contact button {
   display: inline-block;
-  background-color: #3177de;
+  background-color: #198754;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -1751,7 +1752,7 @@ form#contact button {
 }
 
 form#contact button:hover {
-  background-color: #03a4ed;
+  background-color: #198754;
 }
 
 
@@ -1801,7 +1802,7 @@ footer .about ul li {
 footer .about ul li a {
   width: 32px;
   height: 32px;
-  background-color: #03a4ed;
+  background-color: #198754;
   color: #fff !important;
   border-radius: 50%;
   text-align: center;
@@ -1811,7 +1812,7 @@ footer .about ul li a {
 }
 
 footer .about ul li a:hover {
-  background-color: #3177de;
+  background-color: #198754;
 }
 
 footer .footer-item ul li {
@@ -1830,7 +1831,7 @@ footer .footer-item ul li a {
 }
 
 footer .footer-item ul li a:hover {
-  color: #3177de;
+  color: #198754;
 }
 
 footer .footer-item p {
@@ -1840,7 +1841,7 @@ footer .footer-item p {
 }
 
 footer .footer-item form {
-  background-color: #03a4ed;
+  background-color: #198754;
   height: 46px;
   border-radius: 23px;
   position: relative;
@@ -1880,7 +1881,7 @@ footer .copyright p {
 }
 
 footer .copyright p a {
-  color: #3177de;
+  color: #198754;
 }
 
 /* 
@@ -1991,7 +1992,7 @@ responsive
   }
   .subscribe .inner-content form button {
     width: 100%;
-    background-color: #3177de;
+    background-color: #198754;
     margin-top: 30px;
   }
   .our-videos ul.nacc li {
