@@ -13,7 +13,7 @@ $(function () {
   var chart2 = new Chartist.Bar(
     ".amp-pxl",
     {
-      labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      labels: ["Jan", "Feb", "Mar", "April", "June", "July", "Aug"],
       series: [
         [9, 5, 3, 7, 5, 10, 3],
         [6, 3, 9, 5, 4, 6, 4],
